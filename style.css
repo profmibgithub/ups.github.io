@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+    padding-top: 20px; /* Added padding */
+     padding-bottom: 60px; /* Footer space */
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    margin-bottom: 2rem !important;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 0.5rem; /* Slightly rounded corners */
+}
+
+.container {
+    max-width: 1200px; /* Slightly wider container */
+}
+
+.shadow-sm {
+     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important; /* Softer shadow */
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Style results spans */
+.result-value {
+    font-weight: bold;
+    color: #0d6efd; /* Bootstrap primary color */
+}
+
+/* Warning for optional UPS lumpsum */
+span#ups-optional-lumpsum + p.small.text-danger {
+    font-weight: bold;
+}
+
+.mt-n2 { margin-top: -0.5rem !important; } /* Utility for tighter spacing */
+.mb-n2 { margin-bottom: -0.5rem !important; }
+
+/* Ensure cards in the same row have equal height */
+.row > [class*='col-'] > .card {
+    height: 100%;
+}
+.card-body.d-flex {
+    flex-direction: column;
+}
